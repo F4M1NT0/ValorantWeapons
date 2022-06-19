@@ -17,6 +17,7 @@
 @font-face {
     font-family: "FF Mark";
     src: url("../fonts/ffMark/FontFont_FF.Mark.Pro.otf");
+    font-weight:300;
 }
 @font-face {
     font-family: "FF Mark";
@@ -53,11 +54,63 @@
 }
 body{
   font-family: 'FF Mark', Arial, sans-serif;
-  color:white;
   background:url("../img/valorant-ascent.avif");
-  background-size:cover;
-  backdrop-filter: blur(2px);
+  font-weight:lighter;
 }
-.bg-valorant{
+.col-container {
+  display: table; /* Make the container element behave like a table */
+  width: 100%; /* Set full-width to expand the whole page */
+}
+.col{
+   display: table-cell;
+}
+.bg-valorant-title{
   background: #4d7c76;
+  border-bottom: 2px solid rgb(249, 249, 249);
+  position: relative;
+  font-weight: 900;
+}
+.bg-valorant-title::before {
+    content: "";
+    position: absolute;
+    left: 10%;
+    bottom: -2px;
+    /* height: 48px; */
+    width: 80%;
+    border-bottom: 2px solid rgb(131, 131, 131);
+}
+.modal{
+  color:white;
+  backdrop-filter: blur(2px);
+  --bs-modal-bg: ;
+}
+.modal-body{
+    overflow: hidden!important;
+}
+.Heavy{
+  background-color: rgb(209 209 209 / 27%);
+}
+.Sniper{
+  background-color: rgb(209 209 209 / 27%);
+
+}
+.Rifle{
+  background-color: rgb(209 209 209 / 27%);
+
+}
+.Shotgun{
+  background-color: rgb(209 209 209 / 27%);
+}
+.Sidearm{
+  background-color: rgb(209 209 209 / 27%);
+}
+.SMG{
+  background-color: rgb(209 209 209 / 27%);
+}
+.armor{
+  background-color: rgb(209 209 209 / 27%);
+
+}
+.btn-close{
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(333deg) brightness(106%) contrast(102%)!important;
 }
