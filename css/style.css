@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "FF Mark";
+    src: url("../fonts/ffMark/FontFont_FF.Mark.Pro.Black.otf");
+    font-weight: 900;
+}
+@font-face {
+    font-family: "FF Mark";
+    src: url("../fonts/ffMark/FontFont_FF.Mark.Pro.Bold.otf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "FF Mark";
+    src: url("../fonts/ffMark/FontFont_FF.Mark.Pro.Bold.Italic.otf");
+    font-weight: bold;
+    font: italic;
+}
+@font-face {
+    font-family: "FF Mark";
+    src: url("../fonts/ffMark/FontFont_FF.Mark.Pro.otf");
+}
+@font-face {
+    font-family: "FF Mark";
+    src: url("../fonts/ffMark/FontFont_FF.Mark.Pro.Hairline.otf");
+    font-weight: Hairline;
+}
+@font-face {
+    font-family: "FF Mark";
+    src: url("../fonts/ffMark/FontFont_FF.Mark.Pro.Heavy.otf");
+    font-weight: Heavy;
+}
+@font-face {
+    font-family: "FF Mark";
+    src: url("../fonts/ffMark/FontFont_FF.Mark.Pro.Heavy.Italic.otf");
+    font-weight: Heavy;
+    font-style: italic;
+}
+@font-face {
+    font-family: "FF Mark";
+    src: url("../fonts/ffMark/FontFont_FF.Mark.Pro.Medium.otf");
+    font-weight: Medium;
+}
+@font-face {
+    font-family: "FF Mark";
+    src: url("../fonts/ffMark/FontFont_FF.Mark.Pro.Medium.Italic.otf");
+    font-weight: Medium;
+    font-style: italic;
+}
+@font-face {
+    font-family: "FF Mark";
+    src: url("../fonts/FontFont.FF.Mark.Pro.Black.Commercial.Font-FONT/FontFont_FF.Mark.Pro.Thin.Italic.otf");
+    font-weight: Thin;
+    font-style: italic;
+}
+body{
+  font-family: 'FF Mark', Arial, sans-serif;
+  color:white;
+  background:url("../img/valorant-ascent.avif");
+  background-size:cover;
+  backdrop-filter: blur(2px);
+}
+.bg-valorant{
+  background: #4d7c76;
+}
